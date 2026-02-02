@@ -13,7 +13,6 @@ if (!database_url) {
   console.error("url is null");
   process.exit(1);
 }
-console.log(database_url, "this is data base url");
 
 const app = express();
 const PORT = process.env.PORT || 8000;
